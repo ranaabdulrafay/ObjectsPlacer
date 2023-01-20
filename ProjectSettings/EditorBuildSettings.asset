@@ -6,15 +6,19 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
-    path: Assets/Scenes/SampleScene Floor.unity
-    guid: 47e72303aa6c84745ace0f3a5fbac622
+    path: Assets/Scenes/SimpleAR/SimpleAR.unity
+    guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects:
-    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: afefa9fa077902e4f922787e2fc112fd, type: 2}
-    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 38d9f99b7631d274a9e76b0c144b7b47, type: 2}
-    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 9df25ac32d270484f88f9484afa50b1f, type: 2}
-    com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: 05121ee740c19d545ae0bfc0c96a1354, type: 2}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 4f2958799926f174987b63ecbc9c1071, type: 2}
-    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 963abf26bd70f2c4790cd3f1aac8f982, type: 2}
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: f8ce26fe3bc69499b9be4b2378e97a94,
+      type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 98c79e8cc22674a89a95a3a90e2b70cb,
+      type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 302e9f36808117f4184b07b05ca5bb47,
+      type: 2}
+    com.unity.xr.arkit.PlayerSettings: {fileID: 11400000, guid: 2d5fb8e61571b4e3897f221189089fd6,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: e2f869774b12e400996eb546603602e3,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 2e4da6d9f56ed144f823a4dc10597587,
+      type: 2}
+  m_UseUCBPForAssetBundles: 0
